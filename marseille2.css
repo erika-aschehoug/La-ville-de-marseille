@@ -34,7 +34,7 @@
     background: linear-gradient(20deg, #3ba6cc, #ffffff);
     border-radius: 5px;
     width: 40%;
-    position: relative;
+    position: absolute;
     transition: all 5s ease-in-out;
 }
 
