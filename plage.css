@@ -1,0 +1,130 @@
+/* TOP PLAGE     TOP PLAGE     TOP PLAGE     TOP PLAGE     TOP PLAGE */
+
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+
+  #video {
+    width: 100%;
+    height: 100%;
+      
+  }
+
+  .content {
+
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(0, -70%);
+    color: white;
+    text-align: right;
+  }
+
+  .content h1{
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    font-size: 80px;
+  }
+
+  .content p {
+    font-family: 'Quicksand', sans-serif;
+
+  }
+/* NOTRE SELECTION    NOTRE SELECTION    NOTRE SELECTION    NOTRE SELECTION */
+  #titre {
+    font-family:'Abril Fatface', serif;
+    font-weight: normal;
+    background-color: white;
+
+}
+
+#titre h1 {
+    text-align: left;
+    font-size: 200px;
+    padding-left: 10%;
+    font-weight: 400;
+    margin-bottom: -5%;
+    margin-top: -20%;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    
+
+}
+
+#titre h2 {
+    text-align: right;
+    font-size: 200px;
+    padding-right: 10%;
+    font-weight: 400;
+    margin-bottom: -2%;
+    margin-top: -6%;
+}
+
+
+  /* LISTE PLAGE    LISTE PLAGE     LISTE PLAGE     LISTE PLAGE */
+  #plage1 h1 {
+
+    font-family: 'Abril Fatface', serif;
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  #plage1 p {
+
+
+  }
+
+/* FOOTER     FOOTER      FOOTER      FOOTER   */
+
+footer {
+    background-image: url(image/background\ footer.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 100%;
+  
+}
+
+footer h1{
+    
+    color: white;
+    font-size: 30px;
+    font-family:'Abril Fatface', serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+  
+}
+.réseauxsociaux img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.réseauxsociaux {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    
+}
+
+#link {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 2% ;
+    padding-right: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+  
+}
+
+#link a {
+    text-decoration: none;
+    color: white;
+    padding top: 3%;
+}
+
