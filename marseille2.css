@@ -25,7 +25,7 @@ p{
 }
 
 .galerie-musée{
-    padding: 20px;
+    padding: 2%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
