@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@400;700&display=swap');
+
+body {
+    background: #fff;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url(backgrounds/3.jpg);
+    position: relative;
+    opacity: .90;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 6%;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;
+    text-align: center;
+}
+
+.contactez-nous {
+    border-radius: 15px;
+    border: 2px solid black;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 2px 2px 0px black;
+    background: white;
+}
+
+label, input {
+    margin-bottom: 4%;
+    width: 50%;
+}
+
+button {
+    margin-top: 4%;
+}
+
+select {
+    margin-bottom: 2%;
+}
+
+textarea {
+    width: 100%;
+    height: 15ch;
+}
