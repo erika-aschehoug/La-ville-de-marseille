@@ -228,19 +228,19 @@ section {
 /* FOOTER     FOOTER      FOOTER      FOOTER   */
 
 footer {
-    background-image: url(image/background\ footer.png);
+    background-image: url(images/background\ footer.png);
     background-repeat: no-repeat;
     background-size: cover ;
     width: 100%;
   
-    
 }
 
 footer h1{
     
-    color: rgb(255, 255, 255);
+    color: white;
     font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Abril Fatface', serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
   
@@ -251,11 +251,6 @@ footer h1{
     margin-left: 10px;
     margin-right: 10px;
 
-}
-
-#link img{
-    width: 50px;
-    height: 50px;
 }
 
 .réseauxsociaux {
@@ -271,7 +266,7 @@ footer h1{
     justify-content:space-between;
     padding-left: 2% ;
     padding-right: 2%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Quicksand', sans-serif ;
     color: white;
   
 }
