@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 180%;
+    color: #fff;
+    background-color: #323232;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Abril Fatface', serif;
+}
+
+.img1 {
+    background: url(backgrounds/2.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background: url(backgrounds/3.jpg);
+    min-height: 100%;
+}
+
+.img3 {
+    background: url(backgrounds/5.webp);
+    min-height: 100%;
+}
+
+.img1, .img2, .img3 {
+    position: relative;
+    opacity: .85;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 45px 240px;
+}
+
+.title {
+    position: absolute;
+    bottom: 40%;
+    font-size: 850%;
+    text-shadow: 0 0 15px #000;
+    width: 100%;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+}
+
+/* Design responsive */
+@media (max-width: 768px) {
+    p {
+        font-size: 90%;
+    }
+    section {
+
+    padding: 25px 40px;
+    }
+
+    .img1, .img2, .img3 {
+    min-height: 75%;
+    }
+
+    .title {
+        font-size: 600%;
+    }
+}
