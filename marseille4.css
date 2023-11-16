@@ -75,17 +75,123 @@ hr {
     font-family: 'Abril Fatface', serif;
     font-size: 60px;
     font-weight: 400;
-    margin-left: 40px;
+    margin-left: 150px;
   }
 
   #plage1 p {
     font-family: 'Quicksand', sans-serif ;
-    width: 30%;
+    width: 70%;
     font-size: 20px;
     text-align: right;
-    margin-left: 10px;
+    margin-left: 25%;
 
   }
+
+  #plage1 img {
+    width: 50%;
+    height: 30%;
+    flex-wrap: no wrap;
+    margin-top: 6%;
+    margin-right: 4%;
+    border-bottom: solid 4px black;
+    border-right: solid 4px black;
+    padding: 25px;
+
+  }
+
+  #plage1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+/* PLAGE ABRICOTIER       PLAGE ABRICOTIER      PLAGE ABRICOTIER */
+
+#plage2 h1 {
+
+  font-family: 'Abril Fatface', serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin-right: 140px;
+  margin-top: 20%;
+  margin-left: 10%;
+}
+
+#plage2 p {
+  font-family: 'Quicksand', sans-serif ;
+  width: 70%;
+  font-size: 20px;
+  text-align: left ;
+  margin-right: 25%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  
+ 
+}
+
+#plage2 img {
+  width: 44%;
+  height: 30%;
+  flex-wrap: nowrap;
+  margin-top: 6%;
+  margin-left: 4%;
+  border-bottom: solid 4px black;
+  border-left: solid 4px black;
+  padding: 25px;
+  
+
+}
+
+#plage2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+/* PLAGE PAULETTE    PLAGE PAULETTE    PLAGE PAULETTE */
+
+
+#plage3 h1 {
+
+  font-family: 'Abril Fatface', serif;
+  font-size: 60px;
+  font-weight: 400;
+  margin-left: 150px;
+}
+
+#plage3 p {
+  font-family: 'Quicksand', sans-serif ;
+  width: 80%;
+  font-size: 20px;
+  text-align: right;
+  margin-left: 10%;
+
+}
+
+#plage3 img {
+  width: 50%;
+  height: 30%;
+  flex-wrap: no wrap;
+  margin-top: 6%;
+  margin-right: 4%;
+  border-bottom: solid 4px black;
+  border-right: solid 4px black;
+  padding: 25px;
+
+}
+
+#plage3 {
+  display: flex;
+  flex-direction: row;
+}
+
+/* AUTRE PLAGE     AUTRE PLAGE     AUTRE PLAGE      AUTRE PLAGE */
+
+#plage4 p{
+
+  width: 70% ;
+
+}
 
 
 /* FOOTER     FOOTER      FOOTER      FOOTER   */
