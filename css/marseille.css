@@ -134,6 +134,28 @@ header input{
     padding: 45px 240px;
 }
 
+.article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-right: 15%;
+}
+
+#herofestival img {
+    width: 50vh;
+}
+
+#jo2024 img {
+    margin-top: 40%;
+    width: 50vh
+}
+
+#tramway img {
+    margin-top: 50%;
+    width: 50vh;
+}
+
 .title {
     position: absolute;
     bottom: 40%;
