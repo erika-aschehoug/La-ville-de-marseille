@@ -116,7 +116,12 @@ header input{
     min-height: 100%;
 }
 
-.img1, .img2, .img3 {
+.img4 {
+    background: url(backgrounds/4.webp);
+    min-height: 100%;
+}
+
+.img1, .img2, .img3, .img4 {
     position: relative;
     opacity: .85;
     background-position: center;
