@@ -100,7 +100,7 @@ header input{
 /* FOOTER     FOOTER      FOOTER      FOOTER   */
 
 footer {
-    background-image: url(image/background\ footer.png);
+    background-image: url(css/image/background\ footer.png);
     background-repeat: no-repeat;
     background-size: cover ;
     width: 100%;
