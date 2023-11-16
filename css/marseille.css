@@ -97,64 +97,6 @@ header input{
 
 /*-----------fin du header------------*/
 
-/* FOOTER     FOOTER      FOOTER      FOOTER   */
-
-footer {
-    background-image: url(css/image/background\ footer.png);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    width: 100%;
-  
-    
-}
-
-footer h1{
-    
-    color: white;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-  
-}
-.réseauxsociaux img{
-    width: 35px;
-    height: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
-
-}
-
-#link img{
-    width: 50px;
-    height: 50px;
-}
-
-.réseauxsociaux {
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-    
-}
-
-#link {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    padding-left: 2% ;
-    padding-right: 2%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-    color: white;
-  
-}
-
-#link a {
-    text-decoration: none;
-    color: white;
-    padding-top: 3%;
-}
-
-
 html, body {
     height: 100%;
     margin: 0;
@@ -165,7 +107,7 @@ html, body {
     text-align: center;
 }
 
-h2 {
+.titre-accueil {
     font-family: 'Abril Fatface', serif;
 }
 
@@ -193,7 +135,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-section {
+.article-accueil {
     padding: 45px 240px;
 }
 
@@ -209,10 +151,10 @@ section {
 
 /* Design responsive */
 @media (max-width: 768px) {
-    p {
+    .contenu-article-accueil {
         font-size: 90%;
     }
-    section {
+    .article-accueil {
 
     padding: 25px 40px;
     }
@@ -222,10 +164,9 @@ section {
     }
 
     .title {
-        font-size: 600%;
+        font-size: 400%;
     }
 }
-/* FOOTER     FOOTER      FOOTER      FOOTER   */
 
 footer {
     background-image: url(images/background\ footer.png);
