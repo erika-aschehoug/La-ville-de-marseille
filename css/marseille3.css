@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-image: url(images/background-rando.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.randonnees {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article {
+    margin: 2%;
+}
+
+h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
