@@ -40,7 +40,7 @@ html, body {
 
 .histoire4 {
     display: flex;
-    background: url(backgrounds/dame-de-la-garde.jpg);
+    background: url(backgrounds/panier.jpg);
     position: relative;
     background-position: center;
     background-size: cover;
@@ -82,16 +82,25 @@ html, body {
 }
 
 .article-paragraphe {
-    font-weight: 700;
     margin-left: 10vh;
     margin-right: 10vh;
 }
 
-.article-paragraphe, figcaption {
+.article-paragraphe, .article-liste, figcaption {
     text-shadow: 2px 2px 0px black, -2px -2px 0 black, -2px 0px 0px black, 0px -2px 0px black;
     font-size: larger;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
 
+figcaption {
+    text-align: center;
+    font-size: large;
+}
+
+.article-liste {
+    padding-left: 12%;
+    padding-right: 14%;
 }
 
 .article-image {
