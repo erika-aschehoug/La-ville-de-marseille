@@ -170,6 +170,10 @@ header input{
     text-align: left;
 }
 
+.liste-article-accueil {
+    text-align: left;
+}
+
 /* Design responsive */
 @media (max-width: 768px) {
     .contenu-article-accueil {
