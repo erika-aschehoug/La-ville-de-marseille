@@ -2,6 +2,7 @@ body{
     background-image: url(images/background\ formulaire\ contact.jpg);
     background-size: contain;
     background-repeat: repeat;
+    margin: 0;
 }
 
 h1{
