@@ -1,5 +1,5 @@
 footer {
-    background-image: url(images/background\ footer.png);
+    background-image: url(css/images/background\ footer.png);
     background-repeat: no-repeat;
     background-size: cover ;
     width: 100%;
@@ -47,4 +47,3 @@ footer h1{
     color: white;
     padding-top: 3%;
 }
-
