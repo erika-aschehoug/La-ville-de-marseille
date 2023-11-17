@@ -115,15 +115,20 @@ header input{
 
 .img2 {
     background: url(backgrounds/3.jpg);
-    min-height: 100%;
+    min-height: 50%;
 }
 
 .img3 {
     background: url(backgrounds/5.webp);
-    min-height: 100%;
+    min-height: 50%;
 }
 
-.img1, .img2, .img3 {
+.img4 {
+    background: url(backgrounds/4.webp);
+    min-height: 50%;
+}
+
+.img1, .img2, .img3, .img4 {
     position: relative;
     opacity: .85;
     background-position: center;
@@ -136,6 +141,28 @@ header input{
     padding: 45px 240px;
 }
 
+.article {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15%;
+}
+
+#herofestival img {
+    width: 50vh;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#jo2024 img {
+    margin-top: 40%;
+    width: 50vh
+}
+
+#tramway img {
+    margin-top: 50%;
+    width: 50vh;
+}
+
 .title {
     position: absolute;
     bottom: 40%;
@@ -144,6 +171,14 @@ header input{
     width: 100%;
     font-family: 'Abril Fatface', serif;
     font-weight: 400;
+}
+
+.contenu-article-accueil {
+    text-align: left;
+}
+
+.liste-article-accueil {
+    text-align: left;
 }
 
 /* Design responsive */
