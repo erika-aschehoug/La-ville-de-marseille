@@ -22,6 +22,7 @@ main {
     color: #fff;
     font-size: 10em;
     -webkit-text-stroke: 3px black;
+    text-align: center;
 }
 
 .randonnees {
