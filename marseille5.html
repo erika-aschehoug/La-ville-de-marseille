@@ -10,49 +10,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="marseille5.css">
+    <link rel="stylesheet" href="css/marseille5.css">
     <link rel="stylesheet" href="css/marseille.css">
 </head>
 <body>
     
+    
+    <header>
+        <nav class="menu">
+            <label for="touch"><span><img src="css/images/hamburger.png" alt="icon de menu"></span></label>
+              <input type="checkbox" id="touch"> 
+                <ul class="slide">
+                  <li><a href="marseille.html">Acceuil</a></li>
+                  <li><a href="marseille1.html">Histoire de Marseille</a></li>
+                  <li><a href="marseille2.html">Musées</a></li>
+                  <li><a href="marseille3.html">Randonnées</a></li>
+                  <li><a href="marseille4.html">Plages</a></li>
+                  <li><a href="marseille5.html">Parcs</a></li>
+                  <li><a href="marseille6.html">Contact</a></li>
+                </ul>
+        </nav>
+        <input type="text" name="recherche" id="recherche" placeholder="Chercher">
+      </header> 
+
     <main>
 
-
-        <div id="video">     
-            <video autoplay loop muted>
-              <source src="css/images/marseille-le-parc-borely_Gyj3u86L.mp4" type="video/mp4">
-            </video>
-
+            <h2>Parcs et jardins</h2>
         
-        <div class="container">
-                <div class="item">
-                    <img src="css/images/parc-de-maison-blanche-marseille-9eme-1-lg.jpg" alt="Image 1">
-                    <p>Le parc de la Maison Blanche est un parc de 5 hectares situé dans le 9ᵉ arrondissement de Marseille. Le parc dispose d'un lac et de pelouses et d'espace boisés.</p>
-                </div>
-                <div class="item">
-                    <img src="css/images/parc-palais-longchamps-marseille.jpg" alt="Image 2">
-                    <p>Le Palais Longchamp est un incontournable à Marseille : avec son magnifique parc, ce monument historique construit pour amener l’eau dans la ville est une véritable prouesse architecturale.</p>
-                </div>
-                <div class="item">
-                    <img src="css/images/Parc_26eme_centenaire_13.jpg" alt="Image 3">
-                    <p>Situé en plein cœur de Marseille, le Parc du 26e centenaire s’étend sur 10,5 hectares. Il a été aménagé sur le site de l'ancienne gare du Prado.</p>
-                </div>
-                <div class="item">
-                    <img src="css/images/le-parc-valmer-marseille-all-year.jpg" alt="Image 4">
-                    <p>Description de l'image 4</p>
-                </div>
-                <div class="item">
-                    <img src="image5.jpg" alt="Image 5">
-                    <p>Description de l'image 5</p>
-                </div>
-                <div class="item">
-                    <img src="image6.jpg" alt="Image 6">
-                    <p>Description de l'image 6</p>
+    <section class="colonne">
+        <div class="container-img">
+                <img src="css/images/le-parc-valmer-marseille-all-year.jpg" />
+            <div class="infos-hover">
+                <p>Juché sur une petite colline, le Parc Valmer domine la Corniche Kennedy dans le 7ème arrondissement. Il se différencie des autres parcs marseillais de par les nombreux palmiers qui le composent et lui donnent un côté très exotique. N’hésitez pas à y faire une halte pendant votre découverte du littoral sud pour contempler sa magnifique villa du 19ème siècle et une vue admirable sur la Méditerranée.</p>
+            </div>
+        </div>
+    
+        <div class="container-img">
+                <img src="css/images/chateau borely_1.jpg" />
+            <div class="infos-hover">
+         
+             <p>Le parc Borély: ce parc emblématique de la cité phocéenne est bien plus qu'un simple espace de détente. Il raconte l'histoire de la ville. 
+            Ce parc se situe dans le 8ème arrondissement de Marseille, à côté de l hippodrome Marseille Borély. Sa proximité avec la Méditerranée ajoute à son charme, offrant une vue magnifique sur les eaux scintillantes. Il occupe une surface de 17 hectares, ponctués de sculptures et de jardins de styles différents : jardin traditionnel chinois (offert par la ville de Shanghai en 2004), roseraie, jardin botanique, jardin japonais...</p>
+            </div>
+         </div>
+
+         </section>
+         <section class="colonne">
+            <div class="container-img">
+                    <img src="css/images/palais-du-pharojorengo6-1920x960-crop-1611314616.jpg" />
+                <div class="infos-hover">
+         
+                    <p>Situé à l'entrée du Vieux Port de Marseille, juste en face du fort Saint Jean et du MuCEM, le Palais du Pharo est un lieu emblématique de la cité phocéenne. Ce lieu abrite le centre des congrès. Il dispose de près de 7000 m² d'espaces, répartis dans deux ensembles architecturaux distincts:Le Palais historique, édifié par l'Empereur Napoléon III pour son épouse Eugénie.</p>
                 </div>
             </div>
         
+        <div class="container-img">
+            <img src="css/images/Parc_26eme_centenaire_13.jpg" />
+             <div class="infos-hover">
+     
+             <p>Le parc du 26ème centenaire (pour les 26 00 ans de la ville) est l'un des plus jeunes parc de Marseille. Il est situé à proximité de la place Castellane et a été inauguré le 23 juin 2001. Ce parc est construit sur le terrain de l'ancienne gare du Prado, on peut notamment apercevoir les vestiges de son histoire : le toit de l'ancienne gare, les rails au centre du parc transformée en bassin à fontaines, les bornes d'arrêts des trains etc.</p>
+            </div>
+        </div>
+    </section>
+    <section class="colonne">
+        <div class="container-img">
+                <img src="css/images/parc-de-maison-blanche-marseille-9eme-1-lg.jpg" />
+            <div class="infos-hover">
+ 
+                <p>Situé dans le quartier du Cabot, le parc de la Maison blanche est un petit parc charmant qui abrite une belle demeure ancienne qui est aujourd’hui la mairie des 9ème et 10ème arrondissements. Le parc de la Maison Blanche est un parc de 5 hectares situé dans le 9ᵉ arrondissement de Marseille. Le parc dispose d’un lac et de pelouses et d’espace boisés.</p>
+            </div>
+        </div>
+            <div class="container-img">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1eK-v3ILnnCmuMZRFs4E15VeDdKDxCsI&ehbc=2E312F" width="500" height="340"></iframe>
+            </div>
+            </section>
         </main>
-        
+
+            <footer>
+                <h1>Rejoignez-nous</h1>
+                <div class="réseauxsociaux"> 
+                    <a href="https://www.instagram.com/villemarseille/?hl=fr"><img src="css/images/instagram blanc.png" alt=""></a>
+                    <a href="https://twitter.com/marseille?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="css/images/twitter blanc.png" alt=""></a>
+                    <a href="facebook.com/marseilleville/?locale=fr_FR"><img src="css/images/facebook blanc.png" alt=""></a>
+                </div>
+                <div id="link">
+                    <a href="https://www.marseille.fr/e-services">Portail e-service</a>
+                <a href="https://www.marseille.fr/mairie/services-de-proximit%C3%A9/all%C3%B4-mairie">Allô mairie</a>
+                <a href="https://www.marseille.fr/mairie/services-de-proximit%C3%A9/all%C3%B4-mairie">Inscription scolaire</a>
+                <a href="https://www.marseille-tourisme.com/">Office du tourisme</a>
+                <a href="https://www.sortiramarseille.fr/">Sortir à Marseille</a>
+            </div>
+        </footer>
+    </body>
+    </html>
         </body>
         
 
