@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background-rando.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20%;
+    flex-direction: column;
+}
+
+#rando-titre{
+    display: flex;
+    justify-content: center;
+}
+
+#rando-titre h1{
+    color: #fff;
+    font-size: 10em;
+    -webkit-text-stroke: 3px black;
+}
+
+.randonnees {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5% 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rando-principal div:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 550px;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+article {
+    margin: 2%;
+    width: 500px;
+}
+
+h2 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}

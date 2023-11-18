@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/marseille6.css">
+    <link rel="stylesheet" href="css/marseille.css">
     <title>Formulaire de contact</title>
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <label for="touch"><span><img src="images/hamburger.png" alt="icon de menu"></span></label>
+            <label for="touch"><span><img src="css/images/hamburger.png" alt="icon de menu"></span></label>
               <input type="checkbox" id="touch"> 
                 <ul class="slide">
                   <li><a href="marseille.html">Accueil</a></li>
@@ -41,19 +42,19 @@
         <form action="/page-traitement-donnees" method="post">
 
         <div>
-            <label for="nom">Votre nom</label>
+            <label class="label-form" for="nom">Votre nom</label>
             <p></p>
             <input type="text" id="nom" name="nom" placeholder="Martin" required>
         </div>
 
         <div>
-            <label for="email">Votre e-mail</label>
+            <label class="label-form" for="email">Votre e-mail</label>
             <p></p>
             <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
         </div>
         
         <div>
-            <label for="sujet">Quel est le sujet de votre message ?</label>
+            <label class="label-form" for="sujet">Quel est le sujet de votre message ?</label>
             <p></p>
             <select name="sujet" id="sujet" required>
                 <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
@@ -65,7 +66,7 @@
         </div>
         
         <div>
-            <label for="message">Votre message</label>
+            <label class="label-form" for="message">Votre message</label>
             <p></p>
             <textarea name="message" id="message" placeholder="Bonjour, je vous contacte car..." required></textarea>
         </div>
@@ -82,9 +83,9 @@
     <footer>
         <h1>Rejoignez-nous</h1>
         <div class="réseauxsociaux"> 
-            <a href="https://www.instagram.com/villemarseille/?hl=fr"><img src="image/instagram blanc.png" alt=""></a>
-            <a href="https://twitter.com/marseille?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="image/twitter blanc.png" alt=""></a>
-            <a href="facebook.com/marseilleville/?locale=fr_FR"><img src="image/facebook blanc.png" alt=""></a>
+            <a href="https://www.instagram.com/villemarseille/?hl=fr"><img src="css/images/instagram blanc.png" alt=""></a>
+            <a href="https://twitter.com/marseille?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="css/images/twitter blanc.png" alt=""></a>
+            <a href="facebook.com/marseilleville/?locale=fr_FR"><img src="css/images/facebook blanc.png" alt=""></a>
         </div>
         <div id="link">
             <a href="https://www.marseille.fr/e-services">Portail e-service</a>
