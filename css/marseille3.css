@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     background-image: url(images/background-rando.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -9,15 +10,14 @@ main {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-left: 11%;
-    margin-right: 11%;
+    margin: 0px 20%;
 }
 
 .randonnees {
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
-    margin: 2%;
+    margin: 5% 0;
 }
 
 figure {
