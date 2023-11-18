@@ -8,9 +8,20 @@ body {
 
 main {
     display: flex;
-    align-content: center;
     justify-content: center;
     margin: 0px 20%;
+    flex-direction: column;
+}
+
+#rando-titre{
+    display: flex;
+    justify-content: center;
+}
+
+#rando-titre h1{
+    color: #fff;
+    font-size: 10em;
+    -webkit-text-stroke: 3px black;
 }
 
 .randonnees {
@@ -18,6 +29,14 @@ main {
     border: 1px solid black;
     border-radius: 10px;
     margin: 5% 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rando-principal div:nth-child(even){
+    flex-direction: row-reverse;
 }
 
 figure {
@@ -25,16 +44,18 @@ figure {
     flex-direction: column;
     align-items: center;
     margin: 0;
+    width: 550px;
 }
 
 figure img {
     width: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px;
 }
 
 article {
     margin: 2%;
+    width: 500px;
 }
 
 h2 {
