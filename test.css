@@ -12,7 +12,7 @@ body {
 
 .menu {
   /* Pour que le menu reste en place quand on scroll */
-  position: fixed;
+  position: absolute;
   /* Pour que le menu ne soit pas sur le texte et que ce dernier puisse être sélectionné */
   width: 0px;
 }
@@ -53,8 +53,7 @@ nav {
   transform: translateX(-200px);
 }
 
-#hamburger-logo,
-nav {
+#hamburger-logo, nav {
   /* Pour qu'il y ait une animation */
   transition: 0.7s;
 }
